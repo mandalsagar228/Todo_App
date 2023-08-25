@@ -1,0 +1,91 @@
+body{
+  width: 50%;
+  margin:0 auto;
+  /* background:linear-gradient(to bottom, #000000, #FFFFFF); */
+  /* background-image: linear-gradient(to bottom, #000000, #FFFFFF); */
+ 
+  background: hsla(20, 12%, 25%, 1);
+
+  background: linear-gradient(180deg, hsla(20, 12%, 25%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  
+  background: -moz-linear-gradient(180deg, hsla(20, 12%, 25%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  
+  background: -webkit-linear-gradient(180deg, hsla(20, 12%, 25%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#473D38", endColorstr="#FFFFFF", GradientType=1 );
+
+  
+  
+
+
+}
+header{
+  text-align: center;
+}
+header h1{
+font-size: 100px;
+color:white;
+font-weight: 200;
+}
+.input{
+  background: #323438;
+  
+  font-size: 20px;
+  color:white;
+  width: 100%;
+  border-radius: 7px;
+  outline: none;
+  border-bottom: 1px solid #323438;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 9px;
+
+}
+
+.task{
+  background-color: #323438;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.task:hover{
+  background-color: rgb(111, 111, 119);
+}
+.task span{
+  color: white;
+}
+/* 
+.task span:hover{
+  color: red;
+} */
+
+.icon{
+  float: right;
+  margin: 7px;
+  /* font-size: 20px; */
+
+}
+
+
+article{display: grid;}
+.data{
+  font-weight: bold;
+  font-size: 20px;
+}
+.data:hover{
+  color: black;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+.fas{
+  font-size: 20px;
+}
+.fas:hover{
+  color: red;
+}
+
+.fa-pen:hover{
+  color: green;
+
+}
