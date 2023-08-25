@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { ADDNEW_TODO, GET_DATA, TOGGLE_TODO } from "./types";
-const URL = "http://localhost:8600";
+const URL = "https://todoapp-lk6a.onrender.com";
 const addNewTodo = (data) => async (dispatch) => {
   try {
     const res = await axios.post(`${URL}/todos`, { data });
