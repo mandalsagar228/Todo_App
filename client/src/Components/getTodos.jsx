@@ -7,7 +7,7 @@ const GetAllTodos = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getTodosdata());
-  }, []);
+  }, [dispatch]);
   const todos = useSelector((state) => state.todos);
   return (
     <article>
